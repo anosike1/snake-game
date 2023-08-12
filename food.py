@@ -15,6 +15,6 @@ class Food (Turtle):
 # this places the food at a random location
 # we call this when the snake touches food
     def refresh (self):
-        random_x = randint (-100, 100)
-        random_y = randint (-180, 100)
+        random_x = randint (-280, 280)
+        random_y = randint (-280, 280)
         self.goto(random_x, random_y)
